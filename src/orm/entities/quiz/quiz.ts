@@ -96,7 +96,13 @@ export class Quiz {
   twentiethQuestion: string;
 
   @Column()
+  twentieth_questionOther: string;
+
+  @Column()
   twenty_firstQuestion: string;
+
+  @Column()
+  twenty_first_questionOther: string;
 
   @Column()
   twenty_secondQuestion: string;

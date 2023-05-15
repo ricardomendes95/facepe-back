@@ -34,6 +34,7 @@ export const reports = async (req: Request, res: Response, next: NextFunction) =
     const tenthQuestion = await buildQuizQuery(quizRepository, tenthQuestionOptions, 'tenth_question');
     const eleventhQuestion = await buildQuizQuery(quizRepository, eleventhQuestionOptions, 'eleventh_question');
     const fourteenthQuestion = await buildQuizQuery(quizRepository, fourteenthQuestionOptions, 'fourteenth_question');
+    const fifteenthQuestion = await buildQuizQuery(quizRepository, fourteenthQuestionOptions, 'fifteenth_question');
     const sixteenthQuestion = await buildQuizQuery(quizRepository, sixteenthQuestionOptions, 'sixteenth_question');
     const seventeenthQuestion = await buildQuizQuery(
       quizRepository,
@@ -57,6 +58,7 @@ export const reports = async (req: Request, res: Response, next: NextFunction) =
       tenthQuestion,
       eleventhQuestion,
       fourteenthQuestion,
+      fifteenthQuestion,
       sixteenthQuestion,
       seventeenthQuestion,
       eighteenthQuestion,
